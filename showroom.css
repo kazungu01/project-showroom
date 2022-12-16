@@ -1,0 +1,150 @@
+body{
+    background-image: url("https://thumbs.dreamstime.com/b/black-car-silhouette-186093575.jpg") ;
+    font-family: "Noto Sans", sans-serif;
+    
+}
+#car-info, #foota footer a {
+    color: whitesmoke;
+}
+
+#li-2 li, #li-3 li {
+    margin-top: 0.01px;
+}
+
+li {
+    list-style-type: none;
+    margin-top: 20px;
+    color: red;
+}
+li:hover, a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.h3{
+    margin-top: 30px;
+    text-decoration: underline ;
+
+}
+
+#li-2 {
+    margin-left: -7%;
+}
+  
+#li-3 li {
+    float: left;
+  }
+  
+#li-3 li a {
+    display :block;
+    text-align: center;
+    padding: 5px 5px;
+    margin-left :100px;
+  }
+  #li-detail {
+    font-size: 6px;
+    text-decoration: none;
+  }
+  
+.active {
+    text-decoration: underline;
+  }
+
+.items img{
+    height: 35px;
+}
+.items{
+    display: flex;
+    background: whitesmoke;
+    color: black;
+    font-family: "Noto Sans", sans-serif;
+    padding: 10px 20px;
+   align-items: center;
+   height: 35px;
+}
+
+#div-p{
+    background: rgb(43, 42, 42);
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(197, 186, 186);
+}
+
+.lists{
+    list-style-type: disc;
+    text-transform:uppercase ;
+}
+.container{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 0px;
+    margin-left: 70px;
+}
+
+.image-div, .showing, .vehicles-list{
+    width: 30%;
+    margin: 10px 40px;
+}
+
+#image1{
+    height: 60vh;
+    width: 70vh;
+    border-radius: 10px;
+    margin-left: 70px;
+}
+.card{
+    border-radius: 10px;
+    background-color: rgb(43, 42, 42);
+}
+.card-title{
+    color: whitesmoke;
+    font-weight: 500;
+    border-radius: 10px 10px 0 0 ;
+    padding: 10px;
+    background-color:grey;
+}
+.card-content{
+    padding: 20px;
+}
+.extra-content{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.spans-div{
+    margin-top: 20px;
+}
+
+.button-64{
+    color: white;
+    background:#293241 ;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 5px;
+}
+.button-64:hover{
+    color: black;
+    background-color:white ;
+}
+
+#foota {
+    text-align: center;
+    background-color: #293241;
+    color: whitesmoke;
+    height: 30px;
+    font-size: 8px;
+    width: 100%;
+  }
